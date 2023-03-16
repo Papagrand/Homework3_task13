@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/posit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToPos"
+        android:text="Позиционирование" />
+
+    <Button
+        android:id="@+id/sdvig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToSdvig"
+        android:text="Сдвиг" />
+
+    <Button
+        android:id="@+id/horiz_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToHorizChain"
+        android:text="Горизонтальная цепочка" />
+
+    <Button
+        android:id="@+id/vertic_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToVertChain"
+        android:text="Вертикальная цепочка" />
+
+    <Button
+        android:id="@+id/prog_realiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToProgCreating"
+        android:text="Программное создание" />
+
+</LinearLayout>
